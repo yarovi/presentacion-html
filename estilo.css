@@ -1,7 +1,7 @@
 body {
   background: #efeae9;
-  background: linear-gradient(blue, 10%,pink);
-  color: #fff;
+  background: linear-gradient(rgb(119, 119, 212), 10%,rgb(248, 248, 248));
+  color: #7c7474;
   font-family: Calibri, Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -34,14 +34,32 @@ main {
 }
 
 article  h3 {
-  border-bottom: 1px solid #000;
+  border-bottom: 0px solid #000;
   font-size: 1.5em;
   margin-top: 0;
   text-align: center;
 }
 section h2{
-    border-bottom: 1px solid #000;
+    border-bottom: 0px solid #000;
     font-size: 1.5em;
     margin-top: 0;
     text-align: center;
 }
+section img{
+  margin: 0 auto;
+  display: block;
+  border-radius: 70%;
+}
+
+article {
+  background-color: rgba(153, 177, 209, 0.233);
+  
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 1.5em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
