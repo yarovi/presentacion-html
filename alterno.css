@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Brush Script MT';
+    /* Nombre que usarás para referenciar la fuente */
+    src: url('fonts/brush-script-mt.woff') format('woff');
+    /* Ruta del archivo de fuente */
+    /* También puedes añadir otras versiones (e.g., woff2, ttf) para mayor compatibilidad */
+}
+
+body {
+    /* background: linear-gradient(rgb(119, 119, 212), 10%, rgb(248, 248, 248)); */
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    font-family: Calibri, Arial, sans-serif;
+}
+
+header {
+
+    background: linear-gradient(to right, #636FA4, #E8CBC0);
+
+    color: #eae7e7;
+    margin: 0;
+    padding: 1em;
+    text-align: left;
+}
+
+main {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+footer {
+    background: linear-gradient(to right, #636FA4, #E8CBC0);
+    color: #eae7e7;
+    text-align: center;
+    padding: 2em;
+}
+
+nav {
+    background-color: #333;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+nav a:hover {
+    text-decoration: none;
+    /* Underline links on hover */
+    background: rgb(133, 133, 213);
+    padding: 10px;
+}
+
+nav a:active {
+    background-color: #fff;
+
+}
+
+article {
+    text-align: center;
+    margin: 1px 15px 1px 15px;
+}
+
+h2 {
+    font-family: 'Brush Script MT'
+}
+
+.minombre {
+    font-family: 'Brush Script MT'
+}
+
+.img-custom {
+    margin: auto;
+    display: block;
+    border-radius: 70%;
+}
+
+h3 {
+    text-align: left;
+}
+
+h4 {
+    text-align: left;
+    margin-left: 2.5em;
+}
+
+section {
+
+    text-align: left;
+    margin-bottom: 10px;
+    padding: .5em;
+
+
+
+}
+
+.contenido {
+    background-color: rgba(187, 208, 234, 0.24);
+    border-radius: 10px;
+}
+
+aside {
+    text-align: center;
+}
+
+p.letra-capital:first-letter {
+    font-size: 2em;
+    /* Tamaño de la letra capital */
+    font-weight: bold;
+}
+
+p {
+    text-align: left;
+    padding-left: 2.5em;
+}
