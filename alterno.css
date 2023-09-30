@@ -7,7 +7,6 @@
 }
 
 body {
-    /* background: linear-gradient(rgb(119, 119, 212), 10%, rgb(248, 248, 248)); */
     color: #000000;
     margin: 0;
     padding: 0;
@@ -50,7 +49,6 @@ nav a {
 
 nav a:hover {
     text-decoration: none;
-    /* Underline links on hover */
     background: rgb(133, 133, 213);
     padding: 10px;
 }
@@ -109,7 +107,6 @@ aside {
 
 p.letra-capital:first-letter {
     font-size: 2em;
-    /* Tamaño de la letra capital */
     font-weight: bold;
 }
 
