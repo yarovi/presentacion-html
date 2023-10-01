@@ -1,71 +1,116 @@
+@font-face {
+    font-family: 'Brush Script MT';
+    /* Nombre que usarás para referenciar la fuente */
+    src: url('fonts/brush-script-mt.woff') format('woff');
+    /* Ruta del archivo de fuente */
+    /* También puedes añadir otras versiones (e.g., woff2, ttf) para mayor compatibilidad */
+}
+
 body {
-  background: #efeae9;
-  background: linear-gradient(rgb(119, 119, 212), 10%,rgb(248, 248, 248));
-  color: #7c7474;
-  font-family: Calibri, Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    font-family: Calibri, Arial, sans-serif;
 }
 
-body header {
-  background: rgba(0, 0, 0, 0.4);
-  color: #fff;
-  margin: 0;
-  padding: 1em;
-  text-align: center;
-}
+header {
 
-header h2 {
-  margin: 0;
-}
-footer {
-  background: rgba(0, 0, 0, 0.4);
-  color: #fff;
-  padding: 1em;
-  text-align: center;
+    background: linear-gradient(to right, #636FA4, #E8CBC0);
+
+    color: #eae7e7;
+    margin: 0;
+    padding: 1em;
+    text-align: left;
 }
 
 main {
-  box-shadow: 5px 5px 5px #888;
-  padding: 1.5em;
-  margin: 1em 15em 1em 15em;
-  background-color: #fff;
-  color: #000;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
-article  h3 {
-  border-bottom: 0px solid #000;
-  font-size: 1.5em;
-  margin-top: 0;
-  text-align: center;
+footer {
+    background: linear-gradient(to right, #636FA4, #E8CBC0);
+    color: #eae7e7;
+    text-align: center;
+    padding: 2em;
 }
-section h2{
-    border-bottom: 0px solid #000;
-    font-size: 1.5em;
-    margin-top: 0;
+
+nav {
+    background-color: #333;
     text-align: center;
 }
-section img{
-  margin: 0 auto;
-  display: block;
-  border-radius: 70%;
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+nav a:hover {
+    text-decoration: none;
+    background: rgb(133, 133, 213);
+    padding: 10px;
+}
+
+nav a:active {
+    background-color: #fff;
+
 }
 
 article {
-  background-color: rgba(153, 177, 209, 0.233);
-  
-  margin-left: 15%;
-  margin-right: 15%;
-  padding: 1.5em;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 1px 15px 1px 15px;
 }
 
-p.estilo-1::first-letter{
-	font-size:3em;
-	font-family:serif;
+h2 {
+    font-family: 'Brush Script MT'
 }
 
+.minombre {
+    font-family: 'Brush Script MT'
+}
+
+.img-custom {
+    margin: auto;
+    display: block;
+    border-radius: 70%;
+}
+
+h3 {
+    text-align: left;
+}
+
+h4 {
+    text-align: left;
+    margin-left: 2.5em;
+}
+
+section {
+
+    text-align: left;
+    margin-bottom: 10px;
+    padding: .5em;
 
 
 
+}
+
+.contenido {
+    background-color: rgba(187, 208, 234, 0.24);
+    border-radius: 10px;
+}
+
+aside {
+    text-align: center;
+}
+
+p.letra-capital:first-letter {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+p {
+    text-align: left;
+    padding-left: 2.5em;
+}
