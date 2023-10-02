@@ -1,6 +1,6 @@
 # Descripción de Sitio Web
 
-Este es un sitio web informamtivo personal.
+Este es un sitio web informativo personal.
 
 ## Prototipo
 
@@ -9,12 +9,14 @@ Este es un sitio web informamtivo personal.
 
 > **En el Header y Algunas secciones se uso un tipo de letra no standar lo que genero una advertencia al momento de validar el css.**
 
+Ejemplo:
+
 
 ## Contenido
 
-- [index](#sección-1): Introduccion a mi perfil y algunas cosas que me pasaron.
-- [Recreacion](#sección-2): Descripcion de lagunas actividades que me gusta practicar tanto en grupo como individual.
-- [Reflexion](#Seccion-3): Galeria de imagenes y unas cuantas fraces que me parecen interesntes para el dia dia.
+- [index](#sección-1): introducción a mi perfil y algunas cosas que me pasaron.
+- [Recreacion](#sección-2): descripción de lagunas actividades que me gusta practicar tanto en grupo como individual.
+- [Reflexion](#Seccion-3): galería de imágenes y unas cuantas frases que me parecen interesantes para el día día.
 
 
 
