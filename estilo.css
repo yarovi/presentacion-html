@@ -8,6 +8,7 @@
 
 body {
     color: #000000;
+    background-color: #fff;
     margin: 0;
     padding: 0;
     font-family: Calibri, Arial, sans-serif;
@@ -16,7 +17,7 @@ body {
 header {
 
     background: linear-gradient(to right, #636FA4, #E8CBC0);
-
+    background-color: #fff;
     color: #eae7e7;
     margin: 0;
     padding: 1em;
@@ -30,17 +31,20 @@ main {
 
 footer {
     background: linear-gradient(to right, #636FA4, #E8CBC0);
-    color: #eae7e7;
+    background-color: #fff;
+    color: #eae7e7;    
     text-align: center;
     padding: 2em;
 }
 
 nav {
     background-color: #333;
+    color: #000000;
     text-align: center;
 }
 
 nav a {
+    background-color: #333;
     color: #fff;
     text-decoration: none;
     display: inline-block;
@@ -50,12 +54,13 @@ nav a {
 nav a:hover {
     text-decoration: none;
     background: rgb(133, 133, 213);
+    color: #E8CBC0;
     padding: 10px;
 }
 
 nav a:active {
     background-color: #fff;
-
+    color: #E8CBC0;
 }
 
 article {
@@ -65,7 +70,6 @@ article {
 
 h2 {
     text-align: center;
-    font-size: 14;
     font-family: 'Brush Script MT'
 }
 
@@ -101,6 +105,7 @@ section {
 .contenido {
     background-color: rgba(187, 208, 234, 0.24);
     border-radius: 10px;
+    color: #000000;
 }
 
 aside {
