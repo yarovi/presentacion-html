@@ -11,7 +11,7 @@ Este es un sitio web informativo personal.
 
 Ejemplo:
 
-
+![Uso de fuente alterna no estandar](img/nueva_fuente.jpg)
 ## Contenido
 
 - [index](#sección-1): introducción a mi perfil y algunas cosas que me pasaron.
