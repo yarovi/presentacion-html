@@ -4,7 +4,7 @@ Este es un sitio web informamtivo personal.
 
 ## Prototipo
 
-![Distribucion de la Estructura](img/../../img/mock.jpg)
+![Distribucion de la Estructura](img/mock.jpg)
 
 
 > **En el Header y Algunas secciones se uso un tipo de letra no standar lo que genero una advertencia al momento de validar el css.**
